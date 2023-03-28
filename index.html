@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="/Recursos/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="darkmode.css">
+    <title>Anime Visor AV</title>
+</head>
+<body>
+    <header class="container-fluid mb-5">
+        <div class="row">
+            <div class="col-12 p-0">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark nav fixed-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img class="logo" src="Recursos/img/logo.jpeg" alt="">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Iniciar sesión</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Suscripciones</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Estrenos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contactanos</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <button class="switch" id="switch">
+                        <span><i class="fas fa-sun"></i></span>
+                        <span><i class="fas fa-moon"></i></span>
+                       </button>
+                    </div>
+                  </nav>
+            </div>
+
+            <div class="col-12 text-center text-blue" id="parallax">
+                <div class="text-parallax">
+                    <h2 class="font-weight-bold">Anime Visor</h2>
+                    <p>En este Sitio puedes encontrar tus series
+                        de anime favoritas y verlas a cualquier hora, 
+                        en cualquier lugar.
+                    </p>
+                        <a href="#" class="btn btn-info">Suscribete!</a>
+                </div>
+            </div>
+        </div>
+       
+    </header>
+
+    <section class="container mt-5" id="card-place">
+      <p class="h2">Estrenos que te pueden interesar</p>
+      <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4 card-flip">
+              <div class="card face front">
+                  <img src="Recursos/img/tarjeta_giratoria1.jpg" class="card-img-top" alt="...">
+                 <p>Jujutsu Kaisen 2da temporada</p>
+                </div>
+                <div class="card-body face back">
+                  <center>
+                      <a href="#" class="btn btn-primary btn-lg mt-5">Suscribete!
+                        <i class="fa-solid fa-video"></i>
+                      </a>
+                  </center>
+                </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 card-flip">
+              <div class="card face front">
+                  <img src="Recursos/img/tarjeta_giratoria2.jpg" class="card-img-top" alt="...">
+                 <p>Demon Slayer 3ra temporada</p>
+                </div>
+                <div class="card-body face back">
+                  <center>
+                    <a href="#" class="btn btn-primary btn-lg mt-5">Suscribete!
+                      <i class="fa-solid fa-video"></i>
+                    </a>
+                  </center>
+                </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 card-flip">
+              <div class="card face front">
+                  <img src="Recursos/img/tarjeta_giratoria3.jpg" class="card-img-top" alt="...">
+                 <p>Akame ga kill pelicula</p>
+                </div>
+                <div class="card-body face back">
+                  <center>
+                    <a href="#" class="btn btn-primary btn-lg mt-5">Suscribete!
+                      <i class="fa-solid fa-video"></i>
+                    </a>
+                  </center>
+                </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="container mt-5">
+       
+    <p class="h3 text-center mb-3">Escribenos para mas informacion</p>
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
+            <form id="form">
+                <div class="mb-5">
+                 
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electrónico">
+            
+                </div>
+                <div class="mb-5">
+            
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nombre Completo">
+                </div>
+                <div class="mb-5 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Recibir Información de estrenos</label>
+                </div>
+                <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-outline-primary">Enviar</button>
+            </div>
+              </form>
+        </div>
+        
+    </div>
+</section>
+
+    <section class="mt-5">
+      <div class="container-fluid bg-dark text-white text-center py-2">
+          <footer class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+              <div class="col-lg-3 mb-3">
+                  <span class="h6">Contactanos</span> <br>
+                  <span>Suscripciones</span>
+              </div>
+      
+              <div class="col-lg-3 container">
+                  <span class="h6">Nuestras redes sociales</span>
+      
+                  <div class="row">
+                      <div class="col-12">
+                          <ul class="justify-content-center list-group list-group-horizontal">
+                              <li class="list-group">
+                                  <a class="nav-link py-2 p-2" href="">
+                                      <img src="/Recursos/img/facebook.png" alt="" width="40px" />
+                                  </a>
+                              </li>
+                              <li class="list-group">
+                                  <a class="nav-link py-2 p-2" href="">
+                                      <img src="Recursos/img/instagram.png" alt="" width="40px" />
+                                  </a>
+                              </li>
+                              <li class="list-group">
+                                  <a class="nav-link py-2 p-2" href="">
+                                      <img src="Recursos/img/youtube.png" alt="" width="40px" />
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-lg-3 mb-3">
+                  <span class="h6">Numero de Whatsapp</span> <br> 
+                  <span class="h6">31426389</span><br>
+                  <span class="h6"> correo: AVCompany@gmail.com</span>
+              </div>
+          </footer>
+      </div> 
+  </section>
+   
+    <script src="fontawesome/js/all.js"></script>
+    <script src="/Recursos/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>
